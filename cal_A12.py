@@ -347,7 +347,7 @@ def optimization():
 
 if __name__ == '__main__':
 
-    test_with_info(-120, 0, 1.5, 3.6)
-    test_with_info(-77, 2.4, 0.4, 2.7)
+    test_with_info(vx = -120, vy = 0, t1 = 1.5, t2 = 3.6) # A1 题目 1.4s 3.0~4.4
+    test_with_info(vx = -77, vy = 2.4, t1 = 0.4, t2 = 2.7) # A2 题目 4.6s 0.5~5.1
     optimization()
     
